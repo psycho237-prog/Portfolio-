@@ -60,12 +60,13 @@ const Hero = () => {
           <div className="absolute inset-0 bg-gradient-to-r from-[#0D1117] via-[#0D1117]/80 to-transparent md:hidden z-10" />
 
           <img
-            src={`${import.meta.env.BASE_URL}profile.png`}
+            src={`${import.meta.env.BASE_URL}profile.jpg`}
             alt="ONANA GREGOIRE LEGRAND"
-            className="w-full h-full object-cover grayscale contrast-[1.2] brightness-75"
+            className="w-full h-full object-cover grayscale contrast-[1.1] brightness-[0.8]"
             style={{
-              maskImage: 'radial-gradient(circle at 60% 50%, black 20%, transparent 90%)',
-              WebkitMaskImage: 'radial-gradient(circle at 60% 50%, black 20%, transparent 90%)',
+              maskImage: 'radial-gradient(circle at 50% 40%, black 30%, transparent 85%)',
+              WebkitMaskImage: 'radial-gradient(circle at 50% 40%, black 30%, transparent 85%)',
+              objectPosition: 'center 20%'
             }}
           />
         </div>
