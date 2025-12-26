@@ -52,20 +52,20 @@ const Hero = () => {
 
       {/* Profile Image - Responsive Integration */}
       <div
-        className="absolute right-0 top-0 w-full md:w-[55%] h-full z-0 opacity-20 pointer-events-none transition-all duration-1000 animate-fade-in"
+        className="absolute right-0 top-0 w-full md:w-[65%] h-full z-0 opacity-30 pointer-events-none transition-all duration-1000 animate-fade-in"
         style={{ animationDelay: '0.9s' }}
       >
         <div className="relative w-full h-full">
-          {/* Mobile Overlay Fade */}
-          <div className="absolute inset-0 bg-gradient-to-r from-[#0D1117] via-[#0D1117]/80 to-transparent md:hidden z-10" />
+          {/* Smooth transition gradient overlay */}
+          <div className="absolute inset-0 bg-gradient-to-r from-background via-background/60 to-transparent z-10" />
 
           <img
             src={`${import.meta.env.BASE_URL}profile.jpg`}
             alt="ONANA GREGOIRE LEGRAND"
             className="w-full h-full object-cover grayscale contrast-[1.1] brightness-[0.8]"
             style={{
-              maskImage: 'radial-gradient(circle at 50% 40%, black 30%, transparent 85%)',
-              WebkitMaskImage: 'radial-gradient(circle at 50% 40%, black 30%, transparent 85%)',
+              maskImage: 'linear-gradient(to right, transparent 0%, black 40%, black 100%)',
+              WebkitMaskImage: 'linear-gradient(to right, transparent 0%, black 40%, black 100%)',
               objectPosition: 'center 20%'
             }}
           />
