@@ -60,7 +60,7 @@ const Hero = () => {
           <div className="absolute inset-0 bg-gradient-to-r from-[#0D1117] via-[#0D1117]/80 to-transparent md:hidden z-10" />
 
           <img
-            src="/profile.jpg"
+            src={`${import.meta.env.BASE_URL}profile.png`}
             alt="ONANA GREGOIRE LEGRAND"
             className="w-full h-full object-cover grayscale contrast-[1.2] brightness-75"
             style={{
