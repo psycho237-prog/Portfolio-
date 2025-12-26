@@ -74,7 +74,7 @@ const Hero = () => {
 
       {/* Content */}
       <div className="max-w-7xl mx-auto w-full relative z-10">
-        <div className="max-w-3xl text-center md:text-left">
+        <div className="max-w-3xl text-left">
           {/* Name */}
           <h1
             className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 animate-fade-in font-display tracking-tight"
