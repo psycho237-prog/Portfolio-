@@ -7,9 +7,9 @@ const Contact = () => {
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 font-display">
           Get In Touch
         </h2>
-        
+
         <p className="text-muted-foreground text-lg mb-16 max-w-2xl mx-auto leading-relaxed">
-          Have a project in mind? Looking for a collaborator on cybersecurity research or AI development? 
+          Have a project in mind? Looking for a collaborator on cybersecurity research or AI development?
           I'm always open to discussing new opportunities.
         </p>
 
@@ -20,12 +20,12 @@ const Contact = () => {
           </div>
           <div className="flex items-center gap-4 text-muted-foreground">
             <Mail className="w-5 h-5 text-primary" />
-            <span className="font-mono text-lg">psycho237.dev@gmail.com</span>
+            <span className="font-mono text-lg">psychomarlon6@gmail.com</span>
           </div>
         </div>
 
         <a
-          href="mailto:psycho237.dev@gmail.com"
+          href="mailto:psychomarlon6@gmail.com"
           className="btn-primary hoverable inline-flex"
         >
           <Send className="w-5 h-5" />

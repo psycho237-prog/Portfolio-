@@ -85,9 +85,17 @@ const Hero = () => {
 
           {/* Role with scramble effect */}
           <div className="mb-12 animate-fade-in" style={{ animationDelay: '0.3s' }}>
-            <p className="text-base md:text-lg text-muted-foreground font-mono tracking-widest">
+            <p className="text-base md:text-lg text-muted-foreground font-mono tracking-widest mb-4">
               {scrambledText || targetText}
             </p>
+            <a
+              href="https://xyber-clan.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary hover:underline font-mono text-sm tracking-widest transition-all"
+            >
+              CO-FOUNDER OF XYBERCLAN
+            </a>
           </div>
 
           {/* CTA Button - Red like original */}
