@@ -9,64 +9,68 @@ import Footer from '@/components/Footer';
 
 const experiments = [
   {
-    title: 'Neural Network Visualizer',
-    description: 'Interactive visualization of neural network layers and activations. Watch how data flows through a trained model in real-time.',
+    title: 'MERRY-XMAS',
+    description: '3D Christmas tree implementation with interactive hand gesture controls via webcam. A festive experiment in real-time computer vision and 3D rendering.',
     category: 'AI/ML',
-    tech: ['Python', 'TensorFlow', 'D3.js'],
-    link: 'https://github.com/psycho237-prog',
+    tech: ['Python', 'Three.js', 'Computer Vision'],
+    link: 'https://github.com/psycho237-prog/MERRY-XMAS',
     isInteractive: true
   },
   {
-    title: 'Terminal Portfolio',
-    description: 'A command-line inspired portfolio interface. Type commands to navigate and explore projects.',
-    category: 'UI/UX',
-    tech: ['JavaScript', 'CSS', 'Terminal.js'],
-    link: 'https://github.com/psycho237-prog',
-    isInteractive: true
-  },
-  {
-    title: 'Packet Sniffer',
-    description: 'Network packet analyzer for educational purposes. Captures and displays network traffic with protocol breakdown.',
+    title: 'dark_wxlf',
+    description: 'Advanced bug bounty automation tool featuring passive OSINT, active reconnaissance, and automated vulnerability testing for XSS and SQLi.',
     category: 'Security',
-    tech: ['Python', 'Scapy', 'Wireshark'],
-    link: 'https://github.com/psycho237-prog'
+    tech: ['Bash', 'Security', 'Automation'],
+    link: 'https://github.com/psycho237-prog/dark_wxlf',
+    isInteractive: false
   },
   {
-    title: 'Voice Command CLI',
-    description: 'Control your terminal with voice commands. Uses speech recognition to execute bash commands.',
+    title: 'XyberShield',
+    description: 'A comprehensive web platform dedicated to reporting cybersecurity incidents and providing community education on digital threats.',
+    category: 'Security',
+    tech: ['React', 'TypeScript', 'Node.js'],
+    link: 'https://github.com/psycho237-prog/XyberShield',
+    isInteractive: true
+  },
+  {
+    title: 'CARE-FOR-HER',
+    description: 'Digital platform for the detection and prevention of online gender-based violence (GBV) using real-time monitoring and support resources.',
+    category: 'Security',
+    tech: ['JavaScript', 'VBG Prevention', 'Monitoring'],
+    link: 'https://github.com/psycho237-prog/CARE-FOR-HER',
+    isInteractive: true
+  },
+  {
+    title: 'OVL-MD-V2',
+    description: 'A highly performant and multifunctional multi-device WhatsApp bot built for automation and interactive messaging.',
     category: 'Automation',
-    tech: ['Python', 'SpeechRecognition', 'Bash'],
-    link: 'https://github.com/psycho237-prog'
-  },
-  {
-    title: 'CSS Art Generator',
-    description: 'Procedurally generated CSS art pieces using mathematical patterns and gradients.',
-    category: 'Creative',
-    tech: ['CSS', 'JavaScript', 'Canvas'],
-    link: 'https://github.com/psycho237-prog',
+    tech: ['Node.js', 'WhatsApp API', 'Automation'],
+    link: 'https://github.com/psycho237-prog/OVL-MD-V2',
     isInteractive: true
   },
   {
-    title: 'Password Strength Analyzer',
-    description: 'Real-time password strength checker with entropy calculation and crack time estimation.',
+    title: 'Get_forest_pulse',
+    description: 'Environmental monitoring tool that visualizes deforestation and fire dynamics using satellite data, including automated timelapse generation.',
+    category: 'Automation',
+    tech: ['Python', 'Satellite Data', 'Data Science'],
+    link: 'https://github.com/psycho237-prog/Get_forest_pulse',
+    isInteractive: false
+  },
+  {
+    title: 'Keylogger',
+    description: 'Educational security implementation of a keylogger to demonstrate system monitoring and data capture techniques.',
     category: 'Security',
-    tech: ['JavaScript', 'Crypto', 'Zxcvbn'],
-    link: 'https://github.com/psycho237-prog',
-    isInteractive: true
+    tech: ['Python', 'Security', 'Systems'],
+    link: 'https://github.com/psycho237-prog/keylogger',
+    isInteractive: false
   },
   {
-    title: 'Markdown Note CLI',
-    description: 'Fast terminal-based note-taking with markdown support and fuzzy search.',
-    category: 'Productivity',
-    tech: ['Go', 'Bubble Tea', 'SQLite'],
-    link: 'https://github.com/psycho237-prog'
-  },
-  {
-    title: 'API Rate Limiter',
-    description: 'Distributed rate limiting service with Redis backend. Implements token bucket algorithm.',
-    category: 'Backend',
-    tech: ['Python', 'Redis', 'FastAPI'],
-    link: 'https://github.com/psycho237-prog'
+    title: 'GenKit RAG',
+    description: 'Implementation of Retrieval-Augmented Generation (RAG) using Firebase GenKit for building intelligent AI-driven applications.',
+    category: 'AI/ML',
+    tech: ['TypeScript', 'Firebase', 'GenKit'],
+    link: 'https://github.com/psycho237-prog/codelab-ai-genkit-rag',
+    isInteractive: false
   }
 ];
 
